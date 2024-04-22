@@ -1,0 +1,70 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.heading {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.paragraph {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.theme-selector {
+    margin-bottom: 20px;
+}
+
+.theme-selector label {
+    font-weight: bold;
+}
+
+.theme-selector select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+
+.theme-selector button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.theme-selector button:hover {
+    background-color: #0056b3;
+}
+
+.add-theme {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.add-theme a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.add-theme a:hover {
+    text-decoration: underline;
+}
